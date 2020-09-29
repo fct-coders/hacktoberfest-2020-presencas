@@ -10,6 +10,9 @@ jobs:
     name: Deploying to surge
     steps:
       - uses: actions/checkout@v1
+      - uses: actions/setup-python@v2
+      - name: pre-commit
+        uses: pre-commit/action@v2.0.0
       - name: Install surge and fire deployment
         uses: actions/setup-node@v1
         with:
