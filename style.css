@@ -4,6 +4,13 @@ html {
   scroll-behavior: smooth;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  height: 100%;
+  background-color: var(--site-bg);
+  background-image: linear-gradient(
+    13deg,
+    var(--site-bg) 0%,
+    var(--site-card-bg-dark) 74%
+  );
 }
 
 @media screen and (max-width: 500px) {
@@ -37,20 +44,14 @@ html {
   --site-highlight-dark: #924668;
 }
 
+
 body {
-  background-color: var(--site-bg);
-  background-image: linear-gradient(
-    13deg,
-    var(--site-bg) 0%,
-    var(--site-card-bg-dark) 74%
-  );
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-attachment: fixed;
   color:#FFF
 }
 
