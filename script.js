@@ -1,77 +1,63 @@
-const APIURL = "https://api.github.com/users/";
+//import { contributors } from './data/_contributors.json'
 
-const main = document.getElementById("main");
-const form = document.getElementById("form");
-const search = document.getElementById("search");
+const API_URL = 'https://api.github.com/users/';
 
-getUser("deadpyxel");
+const contributor_section = document.getElementById('section-contributors');
 
-async function getUser(username) {
-  const resp = await fetch(APIURL + username);
-  const respData = await resp.json();
+const contributors = [
+  {
+    username: 'deadpyxel',
+    about: 'Hacktoberfest boys',
+    languages: ['Python', 'Go', 'Rust'],
+    year: '2012',
+  },
+];
 
-  createUserCard(respData);
+const get_user_data = async (username) => {
+  const resp = await fetch(API_URL + username);
+  return await resp.json();
+};
 
-  getRepos(username);
-}
+const make_contributor = async (user) => {
+  const user_data = await get_user_data(user.username);
+  const contributor = {
+    ...user,
+    avatar_url: user_data.avatar_url,
+    name: user_data.name,
+  };
+  return contributor;
+};
 
-async function getRepos(username) {
-  const resp = await fetch(APIURL + username + "/repos");
-  const respData = await resp.json();
-
-  addReposToCard(respData);
-}
-
-function createUserCard(user) {
+const create_contributor_card = (user) => {
+  let lang_list = '';
+  user.languages.forEach((lang) => {
+    lang_list += `<li class="lang">${lang}</li>`;
+  });
   const cardHTML = `
-        <div class="card">
             <div>
                 <img class="avatar" src="${user.avatar_url}" alt="${user.name}" />
             </div>
             <div class="user-info">
                 <h2>${user.name}</h2>
-                <p>${user.bio}</p>
+                <p>"${user.about}"</p>
+                <p>Ano: ${user.year}</p>
 
-                <ul class="info">
-                    <li>${user.followers}<strong>Followers</strong></li>
-                    <li>${user.following}<strong>Following</strong></li>
-                    <li>${user.public_repos}<strong>Repos</strong></li>
+                <ul class="languages">
+                  ${lang_list}
                 </ul>
-
-                <div id="repos"></div>
             </div>
-        </div>
     `;
+  let card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = cardHTML;
+  contributor_section.appendChild(card);
+};
 
-  main.innerHTML = cardHTML;
-}
+const list_contributors = () => {
+  contributors.forEach(async (contributor) => {
+    let contrib = await make_contributor(contributor);
+    create_contributor_card(contrib);
+  });
+};
 
-function addReposToCard(repos) {
-  const reposEl = document.getElementById("repos");
-
-  repos
-    .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 10)
-    .forEach((repo) => {
-      const repoEl = document.createElement("a");
-      repoEl.classList.add("repo");
-
-      repoEl.href = repo.html_url;
-      repoEl.target = "_blank";
-      repoEl.innerText = repo.name;
-
-      reposEl.appendChild(repoEl);
-    });
-}
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-
-  const user = search.value;
-
-  if (user) {
-    getUser(user);
-
-    search.value = "";
-  }
-});
+list_contributors();
