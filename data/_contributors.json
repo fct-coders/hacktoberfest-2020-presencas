@@ -2,7 +2,7 @@
     {
         "username": "deadpyxel",
         "about": "Hacktoberfest boys",
-        "languages": "Python, Go, Rust",
+        "languages": ["Python", "Go", "Rust"],
         "year": "2012"
     }
 ]
