@@ -54,14 +54,14 @@ const create_contributor_card = (user) => {
 };
 
 const list_contributors = () => {
-  fetch("./data/_contributors.json")
-  .then(response => response.json())
-  .then(data => {
-    data.forEach(async (contributor) => {
-      let contrib = await make_contributor(contributor);
-      create_contributor_card(contrib);
+  fetch('./data/_contributors.json')
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach(async (contributor) => {
+        let contrib = await make_contributor(contributor);
+        create_contributor_card(contrib);
+      });
     });
-  });
 };
 
 list_contributors();
