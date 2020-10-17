@@ -4,5 +4,12 @@
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    },
+
+    {
+        "username": "CaduSantana",
+        "about": "I wanna get out of Mr Piteri's wild ride!",
+        "languages": ["Java", "C", "R"],
+        "year": "2020"
     }
 ]
