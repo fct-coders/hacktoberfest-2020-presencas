@@ -40,5 +40,11 @@
         "about": "Just another day?",
         "languages": ["C", "C++", "Python"],
         "year": "2020"
+    },
+    {
+        "username": "CaduSantana",
+        "about": "I wanna get out of Mr Piteri's wild ride!",
+        "languages": ["Java", "C", "R"],
+        "year": "2020"
     }
 ]
