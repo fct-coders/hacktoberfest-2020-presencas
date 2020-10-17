@@ -1,5 +1,11 @@
 [
     {
+        "username": "GabrielaSinastre",
+        "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
+        "languages": ["C, Java"],
+        "year": "2020"
+    },
+    {
         "username": "deadpyxel",
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
