@@ -6,11 +6,6 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 500px) {
-  body .section {
-    padding: 50px 0;
-  }
-}
 @media screen and (max-width: 1288px) {
   body .section {
     padding: 0;
@@ -57,7 +52,7 @@ header {
 }
 
 #navbar {
-  margin: 64px 0 20px 0;
+  margin:  0  0;
   font-family: 'Roboto', san-serif;
   display: flex;
   align-items: center;
@@ -65,97 +60,44 @@ header {
   background-color: transparent;
 }
 
-.navbar {
-  position: relative;
-  z-index: 30;
-}
-
-#navbar .navbar-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-body #navbar .nav-logo {
+#nav-logo {
   content: url(https://hacktoberfest.digitalocean.com/assets/h-light-833607d3b00215da03d184b4123e92b82478d565ab73161880dfe02f04bbeddc.svg);
+  width: 50px;
 }
 
-.navLink {
-  font-size: 0.875rem;
-  z-index: 1;
-  text-transform: uppercase;
+
+.navbar {
+  width: 100vw;
+	  height: 60px; 
+   background-color: rgba(0, 0, 0, .45);;
+	align-items: center;
+}
+
+#nav-logo {
+	margin-left: 30px;
+	padding: 7px;
+}
+
+#nav-logo  a:hover {
+	background-color: #000;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
   text-align: center;
-}
-
-.navbar-link {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-a .navLink {
+  padding: 20px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-a .navLink:hover {
-  text-decoration: underline;
+.navbar a:hover {
+  background-color: #ddd; 
+  color: black;
+	transform: scale(1.1);
+transition: transform .2s;
 }
 
-#navbar .navLink {
-  color: var(--site-text);
-}
-body #navbar .navLink:hover,
-body #navbar .active {
-  color: var(--site-card-bg-light);
-}
-
-@media screen and (max-width: 1024px) {
-  #navbar .navbar-wrapper {
-    flex-direction: column;
-  }
-}
-#navbar .navbar-wrapper .logo {
-  min-height: 100px;
-  min-width: 109px;
-}
-#navbar .navbar-wrapper .nav-logo {
-  max-width: 109px;
-}
-#navbar .navbar-wrapper ul.navbar-links {
-  display: flex;
-  align-items: center;
-}
-@media screen and (max-width: 1024px) {
-  #navbar .navbar-wrapper ul.navbar-links {
-    margin: 20px 0 0;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-#navbar .navbar-wrapper ul.navbar-links li {
-  margin-bottom: 10px;
-  text-align: center;
-}
-#navbar .navbar-wrapper ul.navbar-links li .navLink {
-  margin-left: 1.875rem;
-  font-size: 0.875rem;
-  z-index: 1;
-  text-transform: uppercase;
-  text-align: center;
-}
-@media screen and (max-width: 1024px) {
-  #navbar .navbar-wrapper ul.navbar-links li .navLink {
-    margin-left: 0;
-  }
-}
-nav ul {
-  color: var(--site-text);
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-nav ul li {
-  list-style: none;
-}
 
 input {
   background-color: var(--site-card-bg-dark);
