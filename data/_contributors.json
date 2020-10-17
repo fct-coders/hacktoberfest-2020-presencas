@@ -18,6 +18,12 @@
         "year": "2005"
     },
     {
+        "username": "pvicari",
+        "about": "A little pixel on screen",
+        "languages": ["Python", "JS", "C"],
+        "year": "2013"
+    },
+    {
         "username": "vinijabes",
         "about": "Pruuu",
         "languages": ["C++", "Go", "Rust", "Javascript"],
