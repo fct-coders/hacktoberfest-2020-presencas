@@ -5,11 +5,13 @@ Esse repo contém o código fonte para o livro de presenças do Hacktoberfest 20
 ## Instalação para desenvolvimento
 
 Instale o pacote serve através de
+
 ```bash
 npm install -g serve
 ```
 
 Execute
+
 ```bash
 serve .
 ```
