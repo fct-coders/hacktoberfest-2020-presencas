@@ -46,5 +46,11 @@
         "about": "I wanna get out of Mr Piteri's wild ride!",
         "languages": ["Java", "C", "R"],
         "year": "2020"
+    },
+    {
+        "username": "GiuliaCampos",
+        "about": "Code like a girl",
+        "languages": ["JavaScript", "ReactJs"],
+        "year": "2016"
     }
 ]
