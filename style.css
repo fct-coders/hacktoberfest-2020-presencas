@@ -70,7 +70,7 @@ header {
   z-index: 30;
 }
 
-#navbar .navbar-wrapper {
+#navbar .nav-wrapper {
   display: flex;
   align-items: center;
 }
@@ -79,11 +79,17 @@ body #navbar .nav-logo {
   content: url(https://hacktoberfest.digitalocean.com/assets/h-light-833607d3b00215da03d184b4123e92b82478d565ab73161880dfe02f04bbeddc.svg);
 }
 
+.navbar-links li {
+  display: inline-block;
+}
+
 .navLink {
+  margin-left: 1rem;
   font-size: 0.875rem;
   z-index: 1;
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none;
 }
 
 .navbar-link {
@@ -108,33 +114,33 @@ body #navbar .active {
 }
 
 @media screen and (max-width: 1024px) {
-  #navbar .navbar-wrapper {
+  #navbar .nav-wrapper {
     flex-direction: column;
   }
 }
-#navbar .navbar-wrapper .logo {
+#navbar .nav-wrapper .logo {
   min-height: 100px;
   min-width: 109px;
 }
-#navbar .navbar-wrapper .nav-logo {
+#navbar .nav-wrapper .nav-logo {
   max-width: 109px;
 }
-#navbar .navbar-wrapper ul.navbar-links {
+#navbar .nav-wrapper ul.navbar-links {
   display: flex;
   align-items: center;
 }
 @media screen and (max-width: 1024px) {
-  #navbar .navbar-wrapper ul.navbar-links {
+  #navbar .nav-wrapper ul.navbar-links {
     margin: 20px 0 0;
     flex-direction: column;
     align-items: center;
   }
 }
-#navbar .navbar-wrapper ul.navbar-links li {
+#navbar .nav-wrapper ul.navbar-links li {
   margin-bottom: 10px;
   text-align: center;
 }
-#navbar .navbar-wrapper ul.navbar-links li .navLink {
+#navbar .nav-wrapper ul.navbar-links li .navLink {
   margin-left: 1.875rem;
   font-size: 0.875rem;
   z-index: 1;
@@ -142,7 +148,7 @@ body #navbar .active {
   text-align: center;
 }
 @media screen and (max-width: 1024px) {
-  #navbar .navbar-wrapper ul.navbar-links li .navLink {
+  #navbar .nav-wrapper ul.navbar-links li .navLink {
     margin-left: 0;
   }
 }
@@ -189,6 +195,7 @@ input:focus {
   display: flex;
   padding: 3rem;
   max-width: 800px;
+  margin-bottom: 10px;
 }
 
 .avatar {
@@ -240,4 +247,8 @@ input:focus {
 .section-contributos {
   display: flex;
   justify-content: space-between;
+}
+
+main {
+  color: var(--site-text);
 }
