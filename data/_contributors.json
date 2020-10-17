@@ -4,5 +4,11 @@
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    },
+    {
+        "username": "ga-sr",
+        "about": "Alô... oi?",
+        "languages": ["Javascript", "Python"],
+        "year": "2018"
     }
 ]
