@@ -11,18 +11,6 @@ const contributors = [
     languages: ['Python', 'Go', 'Rust'],
     year: '2012',
   },
-  {
-    username: 'pvicari',
-    about: 'Hacktoberfest boys',
-    languages: ['Python', 'Go', 'Rust'],
-    year: '2012',
-  },
-  {
-    username: 'darlannakamura',
-    about: 'Hacktoberfest boys',
-    languages: ['Python', 'Go', 'Rust'],
-    year: '2012',
-  },
 ];
 
 const get_user_data = async (username) => {
