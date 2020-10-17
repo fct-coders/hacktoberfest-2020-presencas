@@ -11,9 +11,10 @@ Para adicionar sua presença neste evento os passos a seguir são bem simples:
 git clone https://github.com/USER/hacktoberfest-presencas.git.
 ```
 
-3. Abra o arquivo `data/_contributors.json` em algum editor de texto. 
+3. Abra o arquivo `data/_contributors.json` em algum editor de texto.
 
 4. Siga o template para adicionar sua presença:
+
 ```json
 {
     "username": "daenerystargaryem", // seu nome de usuário no Github
