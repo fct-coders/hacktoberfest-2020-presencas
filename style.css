@@ -79,7 +79,7 @@ body #navbar .nav-logo {
   content: url(https://hacktoberfest.digitalocean.com/assets/h-light-833607d3b00215da03d184b4123e92b82478d565ab73161880dfe02f04bbeddc.svg);
 }
 
-.navbar-links li{
+.navbar-links li {
   display: inline-block;
 }
 
@@ -195,6 +195,7 @@ input:focus {
   display: flex;
   padding: 3rem;
   max-width: 800px;
+  margin-bottom: 10px;
 }
 
 .avatar {
@@ -248,6 +249,6 @@ input:focus {
   justify-content: space-between;
 }
 
-main{
+main {
   color: var(--site-text);
 }
