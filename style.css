@@ -146,6 +146,7 @@ input {
   font-size: 1rem;
   padding: 1rem;
   margin-bottom: 2rem;
+  margin-bottom: 10px;
 }
 
 input::placeholder {
