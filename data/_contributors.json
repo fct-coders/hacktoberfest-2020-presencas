@@ -10,5 +10,11 @@
         "about": "Alô... oi?",
         "languages": ["Javascript", "Python"],
         "year": "2018"
+    },
+    {
+        "username": "GuiCT49",
+        "about": "Just another day?",
+        "languages": ["C", "C++", "Python"],
+        "year": "2020"
     }
 ]
