@@ -189,6 +189,7 @@ input:focus {
   display: flex;
   padding: 3rem;
   max-width: 800px;
+  margin-bottom: 10px;
 }
 
 .avatar {
