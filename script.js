@@ -35,10 +35,12 @@ const create_contributor_card = (user) => {
   });
   const cardHTML = `
             <div>
-                <img class="avatar" src="${user.avatar_url}" alt="${user.name}" />
+                <img class="avatar" src="${user.avatar_url}" alt="${
+    user.name
+  }" />
             </div>
             <div class="user-info">
-                <h2>${user.name}</h2>
+                <h2>${user.name || user.username}</h2>
                 <p>"${user.about}"</p>
                 <p>Ano: ${user.year}</p>
 
