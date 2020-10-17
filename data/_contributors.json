@@ -1,8 +1,14 @@
 [
     {
-        "username": "deadpyxel", "MaykonDouglas21",
+        "username": "deadpyxel",
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    },
+    {
+        "username": "MaykonDouglas21",
+        "about": "idk",
+        "languages": [""],
+        "year": "2018"
     }
 ]
