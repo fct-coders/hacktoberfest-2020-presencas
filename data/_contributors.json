@@ -4,5 +4,11 @@
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    },
+    {
+        "username": "pvicari",
+        "about": "A little pixel on screen",
+        "languages": ["Python", "JS", "C"],
+        "year": "2013"
     }
 ]
