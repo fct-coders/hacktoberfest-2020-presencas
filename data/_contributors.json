@@ -4,5 +4,11 @@
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    },
+    {
+        "username": "glyve99",
+        "about": "i use arch btw",
+        "languages": ["Python", "Typescript", "Go"],
+        "year": "2018"
     }
 ]
