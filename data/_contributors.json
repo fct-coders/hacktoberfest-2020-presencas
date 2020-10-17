@@ -4,5 +4,11 @@
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    },
+    {
+        "username": "gabriel-github",
+        "about": "Sobrevivente",
+        "languages": ["js", "React"],
+        "year": "2019"
     }
 ]
