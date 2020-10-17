@@ -44,47 +44,34 @@ body {
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  min-height: 100vh;
+  background-attachment: fixed;
+  color:#FFF
 }
+
+/* NAVBAR */
+
 header {
   display: flex;
   display: block;
 }
 
-#navbar {
-  margin:  0  0;
-  font-family: 'Roboto', san-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: transparent;
-}
-
 #nav-logo {
   content: url(https://hacktoberfest.digitalocean.com/assets/h-light-833607d3b00215da03d184b4123e92b82478d565ab73161880dfe02f04bbeddc.svg);
   width: 50px;
+  margin-left: 30px;
+  padding: 7px;
 }
-
 
 .navbar {
   width: 100vw;
-	  height: 60px; 
-   background-color: rgba(0, 0, 0, .45);;
-	align-items: center;
-}
-
-#nav-logo {
-	margin-left: 30px;
-	padding: 7px;
-}
-
-#nav-logo  a:hover {
-	background-color: #000;
+  height: 60px; 
+  background-color: rgba(0, 0, 0, .45);;
+  align-items: center;
 }
 
 .navbar a {
-  float: left;
   color: #f2f2f2;
+  float: left;
   text-align: center;
   padding: 20px 16px;
   text-decoration: none;
@@ -92,12 +79,55 @@ header {
 }
 
 .navbar a:hover {
-  background-color: #ddd; 
+  background-color: #FDFDFD; 
   color: black;
-	transform: scale(1.1);
-transition: transform .2s;
+  transform: scale(1.1);
+  transition: transform .1s;
 }
 
+.navbar .icone {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .nav-wrapper a:not(:first-child) {
+	display: none;
+  }
+	
+  .nav-wrapper a.icone {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .nav-wrapper.responsive {
+    position: relative;
+	}
+	
+  .nav-wrapper.responsive a.icone {
+    top: 0;
+    right: 0;
+    position: absolute;
+
+  }
+	
+  .nav-wrapper.responsive a {
+	background-color: #0d2133;
+	color: #FFF;
+	transform: scale(1.0);
+    float: none;
+    text-align: left;
+	display: block;
+  }
+	
+  .nav-wrapper.responsive a:hover {
+    text-decoration: underline;
+  }
+	
+}
+
+/* FIM NAVBAR */
 
 input {
   background-color: var(--site-card-bg-dark);
