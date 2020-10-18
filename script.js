@@ -1,17 +1,17 @@
-//import { contributors } from './data/_contributors.json'
+//import contributors from "./data/_contributors.json"
 
 const API_URL = 'https://api.github.com/users/';
 
 const contributor_section = document.getElementById('section-contributors');
 
-const contributors = [
-  {
-    username: 'deadpyxel',
-    about: 'Hacktoberfest boys',
-    languages: ['Python', 'Go', 'Rust'],
-    year: '2012',
-  },
-];
+//const contributors = [
+//  {
+//    username: 'deadpyxel',
+//    about: 'Hacktoberfest boys',
+//    languages: ['Python', 'Go', 'Rust'],
+//    year: '2012',
+//  },
+//];
 
 const get_user_data = async (username) => {
   const resp = await fetch(API_URL + username);
@@ -35,10 +35,12 @@ const create_contributor_card = (user) => {
   });
   const cardHTML = `
             <div>
-                <img class="avatar" src="${user.avatar_url}" alt="${user.name}" />
+                <img class="avatar" src="${user.avatar_url}" alt="${
+    user.name
+  }" />
             </div>
             <div class="user-info">
-                <h2>${user.name}</h2>
+                <h2>${user.name || user.username}</h2>
                 <p>"${user.about}"</p>
                 <p>Ano: ${user.year}</p>
 
@@ -54,10 +56,23 @@ const create_contributor_card = (user) => {
 };
 
 const list_contributors = () => {
-  contributors.forEach(async (contributor) => {
-    let contrib = await make_contributor(contributor);
-    create_contributor_card(contrib);
-  });
+  fetch('./data/_contributors.json')
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach(async (contributor) => {
+        let contrib = await make_contributor(contributor);
+        create_contributor_card(contrib);
+      });
+    });
 };
 
 list_contributors();
+
+function abrirMenu() {
+  var nav = document.getElementById('nav-wrapper');
+  if (nav.className === 'nav-wrapper') {
+    nav.className += ' responsive';
+  } else {
+    nav.className = 'nav-wrapper';
+  }
+}
