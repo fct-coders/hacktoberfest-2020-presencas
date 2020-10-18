@@ -82,5 +82,12 @@
         "about": "Java > All. É meme, calma",
         "languages": ["PHP", "Dart", "Typescript"],
         "year": "2018"
+    },
+    {
+        "username": "Prado27",
+        "about": "Olá",
+        "languages": ["C", "C++"],
+        "year": "2019"
+
     }
 ]
