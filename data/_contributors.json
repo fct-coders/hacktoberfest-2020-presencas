@@ -11,4 +11,10 @@
         "languages": ["Javascript", "Python"],
         "year": "2018"
     }
+    {
+        "username": "daviiro",
+        "about": "Hello World!",
+        "languages": ["C", "Python", "Javascript"],
+        "year": "2000"
+    }
 ]
