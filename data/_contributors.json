@@ -58,5 +58,11 @@
         "about": "i use arch btw",
         "languages": ["Python, Typescript, Go"],
         "year": "2018"
+    },
+    {
+        "username": "karenalmeida18",
+        "about": "I like  coffee",
+        "languages": ["JS"],
+        "year": "2019"
     }
 ]
