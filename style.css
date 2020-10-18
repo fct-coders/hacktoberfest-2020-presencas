@@ -107,10 +107,12 @@ a .navLink:hover {
 
 #navbar .navLink {
   color: var(--site-text);
+  transition: color 400ms;
+  
 }
 body #navbar .navLink:hover,
 body #navbar .active {
-  color: var(--site-card-bg-light);
+  color: var(  --site-highlight);
 }
 
 @media screen and (max-width: 1024px) {
