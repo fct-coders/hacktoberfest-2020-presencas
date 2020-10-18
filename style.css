@@ -256,17 +256,17 @@ main {
 @keyframes up {
     from{
         opacity: 0;
-        transform: translateY(16px);
+        transform: translateX(16px);
     }
 
     to{
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
 }
 
 .up{
   animation-name: up;
-  animation-duration: 300ms;
+  animation-duration: 1s;
   animation-fill-mode: backwards;
 }
