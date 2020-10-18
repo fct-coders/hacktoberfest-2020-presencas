@@ -187,8 +187,7 @@ input:focus {
   display: flex;
   list-style-type: none;
   padding: 0;
-  // O valor abaixo foi alterado de 400px para 105px para resolver a issue #30
-  max-width: 105px;
+  max-width: 400px;
   text-transform: capitalize;
 }
 
