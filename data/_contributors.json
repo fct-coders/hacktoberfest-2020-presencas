@@ -52,5 +52,11 @@
         "about": "O cinzento que virou branco",
         "languages": ["Élfico", "Vanar", "khuzdul", "Inglês"],
         "year": "600 AM"
+    },
+    {
+        "username": "LeandroH9",
+        "about": "Roi",
+        "languages": ["Python", "Java", "C", "JS"],
+        "year": "2019"
     }
 ]
