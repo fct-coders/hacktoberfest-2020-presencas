@@ -5,4 +5,12 @@
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
     }
+	
+	{
+        "username": "Willendes",
+        "about": "O jogo",
+        "languages": ["C", "C#", "Java", "GML"],
+        "year": "2018"
+    }
+	
 ]
