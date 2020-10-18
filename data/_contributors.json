@@ -1,5 +1,11 @@
 [
     {
+        "username": "GabrielaSinastre",
+        "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
+        "languages": ["C, Java"],
+        "year": "2020"
+    },
+    {
         "username": "deadpyxel",
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
@@ -12,10 +18,18 @@
         "year": "2018"
     },
     {
+
         "username": "daenerystargaryem",
         "about": "Queen of Meereen, Khaleesi of the Great Grass Sea, Mother of Dragons, The Unburnt, Breaker of Chains, Television, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, Lady of Dragonstone",
         "languages": ["High-Valirian"],
         "year": "2005"
+    },
+    {
+
+        "username": "ViniciusPolachini",
+        "about": "Sei lá...",
+        "languages": ["Javascript"],
+        "year": "2019"
     },
     {
         "username": "pvicari",
