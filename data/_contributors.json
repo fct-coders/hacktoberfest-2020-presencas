@@ -46,5 +46,11 @@
         "about": "I wanna get out of Mr Piteri's wild ride!",
         "languages": ["Java", "C", "R"],
         "year": "2020"
+    },
+    {
+        "username": "gabrielsmantovani",
+        "about": "Oi?",
+        "languages": ["Java", "Python"],
+        "year": "2019"
     }
 ]
