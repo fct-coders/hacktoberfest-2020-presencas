@@ -188,6 +188,7 @@ input:focus {
   list-style-type: none;
   padding: 0;
   max-width: 400px;
+  text-transform: capitalize;
 }
 
 .user-info ul li {
