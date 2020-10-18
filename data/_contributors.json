@@ -88,5 +88,12 @@
         "about": "Olá",
         "languages": ["C", "C++"],
         "year": "2019"
-    }
+    },
+    {
+        "username": "yingyangtongxue",
+        "about": "Hacktoberfest UNESP",
+        "languages": ["C", "Python","Java","JavaScript"],
+        "year": "2019"
+    }    
+
 ]
