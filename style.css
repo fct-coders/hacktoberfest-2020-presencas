@@ -270,3 +270,7 @@ main {
   animation-duration: 300ms;
   animation-fill-mode: backwards;
 }
+
+.languages {
+  margin-right: 15rem;
+}
