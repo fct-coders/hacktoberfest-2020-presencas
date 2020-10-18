@@ -4,5 +4,13 @@
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
         "year": "2012"
+    }, 
+    {
+        "username": "lucasgstumpf",
+        "about": "Programo na fé",
+        "languages": ["C"],
+        "year": "2020"
     }
+
+
 ]
