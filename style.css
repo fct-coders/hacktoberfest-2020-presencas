@@ -216,7 +216,6 @@ input:focus {
 
 .user-info ul {
   display: flex;
-  justify-content: space-between;
   list-style-type: none;
   padding: 0;
   max-width: 400px;
@@ -235,8 +234,8 @@ input:focus {
 .lang {
   background-color: var(--site-card-bg-light);
   border-radius: 5px;
-  display: inline-block;
   color: white;
+  display: inline-block;
   font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
@@ -269,8 +268,4 @@ main {
   animation-name: up;
   animation-duration: 300ms;
   animation-fill-mode: backwards;
-}
-
-.languages {
-  margin-right: 15rem;
 }
