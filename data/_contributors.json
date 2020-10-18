@@ -46,5 +46,11 @@
         "about": "I wanna get out of Mr Piteri's wild ride!",
         "languages": ["Java", "C", "R"],
         "year": "2020"
+    },
+    {
+        "username": "gandalf",
+        "about": "O cinzento que virou branco",
+        "languages": ["Élfico", "Vanar", "khuzdul", "Inglês"],
+        "year": "600 AM"
     }
 ]
