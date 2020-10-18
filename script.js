@@ -38,8 +38,8 @@ const create_contributor_card = (user) => {
 // A maneira com que lidamos com a lista de linguagens abaixo, inverteria a ordem das linguagens.
   user.languages.reverse().forEach((lang) => {
 	let lang_store = lang;
-	lang_store = lang_store.toLowerCase()
-	 
+	lang_store = lang_store.toLowerCase();
+	  
 	if (lang_store == 'js') {
 		lang_store = 'javascript';
 	}
@@ -53,15 +53,15 @@ const create_contributor_card = (user) => {
 	}
 	  
 	if (linguagens.includes(lang_store)) {
-	  
-      lang_list = '<li class="lang"><img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/' + lang_store + '/' + lang_store + '.svg" style="width: 30px"></li>' + lang_list;
+	  let lang_title = lang_store.charAt(0).toUpperCase() + lang_store.slice(1);
+      lang_list = '<li class="lang"><img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/' + lang_store + '/' + lang_store + '.svg" title="' + lang_title + '" style="width: 30px"></li>' + lang_list;
 		  }
 	  else if (lang_store == 'rust'){
-		  lang_list = '<li class="lang"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" style="width: 30px"</li>' + lang_list
+		  lang_list = '<li class="lang"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg" title="Rust" style="width: 30px"</li>' + lang_list
 	  }
 	  
 	  else if (lang_store == 'react'){
-		  lang_list = '<li class="lang"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" style="width: 30px"</li>' + lang_list
+		  lang_list = '<li class="lang"><img src="https://upload.wikimedia.org/wikipedia/commons/4/47/React.svg" title="React" style="width: 30px"</li>' + lang_list
 	  }
 	  
 	  // Por questões estéticas, adicionamos a linguagem sem imagem no final da lista
