@@ -88,5 +88,11 @@
         "about": "Olá",
         "languages": ["C", "C++"],
         "year": "2019"
+    },
+	{
+        "username": "jibaky",
+        "about": "Mó fita isso, bixo",
+        "languages": ["C"],
+        "year": "2018"
     }
 ]
