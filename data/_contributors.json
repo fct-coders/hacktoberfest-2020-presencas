@@ -58,5 +58,14 @@
         "about": "i use arch btw",
         "languages": ["Python, Typescript, Go"],
         "year": "2018"
+    },
+    {
+        "username": "brunaanselmo",
+        "about": "odeio ead",
+        "languages": ["Java", "React", "C"],
+        "year": "2019"
     }
+
+
+
 ]
