@@ -35,9 +35,7 @@ const create_contributor_card = (user) => {
   });
   const cardHTML = `
             <div>
-                <img class="avatar" src="${GITHUB_URL + user.username + '.png'}" alt="${
-    user.name
-  }" />
+                <img class="avatar" src="${GITHUB_URL + user.username + '.png'}" alt="${user.username}" />
             </div>
             <div class="user-info">
                 <h2>${user.name || user.username}</h2>
