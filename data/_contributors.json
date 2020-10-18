@@ -58,5 +58,11 @@
         "about": "i use arch btw",
         "languages": ["Python, Typescript, Go"],
         "year": "2018"
+    },
+    {
+        "username": "FOX6683",
+        "about": "tres pratos de trigo para tres tigres tristes",
+        "languages": ["C"],
+        "year": "2020"
     }
 ]
