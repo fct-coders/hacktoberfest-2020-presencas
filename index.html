@@ -10,38 +10,28 @@
       href="https://hacktoberfest.digitalocean.com/assets/application-9ae5599a0669647c4465b73c3eaeb2bc3c26fdd77bd4fc33e0228089e505c680.css"
     /> -->
     <script src="./script.js" defer></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
-    <div>
-      <header>
-        <nav id="navbar" class="navbar">
-          <div class="nav-wrapper">
-            <a class="nav-logo" href="/">HFCT</a>
-            <ul class="navbar-links">
-              <li>
-                <a class="navLink" href="/">home</a>
-              </li>
-              <li>
+	 <header>
+        <nav class="navbar">
+          <div class="nav-wrapper" id="nav-wrapper">
+				<a id="nav-logo" class="nav-logo" href="/">HFCT</a>
                 <a class="navLink" href="#section-about">O que é?</a>
-              </li>
-              <li>
                 <a class="navLink" href="#section-help">Como participar?</a>
-              </li>
-              <li>
-                <a class="navLink" href="#section-contributors"
-                  >participantes</a
-                >
-              </li>
-              <li>
-                <a class="navLink" href="#section-social">redes sociais</a>
-              </li>
-            </ul>
+                <a class="navLink" href="#section-contributors">Participantes</a>
+                <a class="navLink" href="#section-social">Redes sociais</a>
+			    <a href="javascript:void(0);" class="icone" onclick="abrirMenu()">
+				   <span class="material-icons">menu</span>
+			  </a>
           </div>
         </nav>
       </header>
+    <div>
       <main>
         <section id="section-about">
-          <p>Bem vindos ao repo do Hacktoberfest 2020 da FCT!</p>
+		  <br>
+          <p>Seja bem-vindo ao site do Hacktoberfest 2020 da FCT!</p>
         </section>
         <section id="section-help"><h2>Precisa de ajuda?</h2></section>
         <section id="section-contributors">

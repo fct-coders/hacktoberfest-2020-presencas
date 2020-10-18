@@ -67,3 +67,14 @@ const list_contributors = () => {
 };
 
 list_contributors();
+
+function abrirMenu() {
+  var nav = document.getElementById("nav-wrapper");
+  if (nav.className === "nav-wrapper") {
+    nav.className += " responsive";
+  } 
+	
+  else {
+    nav.className = "nav-wrapper";
+  }
+} 

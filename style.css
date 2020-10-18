@@ -4,6 +4,12 @@ html {
   scroll-behavior: smooth;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  background-color: var(--site-bg);
+  background-image: linear-gradient(
+    13deg,
+    var(--site-bg) 0%,
+    var(--site-card-bg-dark) 74%
+  );
 }
 
 @media screen and (max-width: 500px) {
@@ -11,6 +17,7 @@ html {
     padding: 50px 0;
   }
 }
+
 @media screen and (max-width: 1288px) {
   body .section {
     padding: 0;
@@ -36,132 +43,97 @@ html {
   --site-highlight-dark: #924668;
 }
 
+
 body {
-  background-color: var(--site-bg);
-  background-image: linear-gradient(
-    13deg,
-    var(--site-bg) 0%,
-    var(--site-card-bg-dark) 74%
-  );
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  min-height: 100vh;
+  color:#FFF
 }
+
+/* NAVBAR */
+
 header {
   display: flex;
   display: block;
 }
 
-#navbar {
-  margin: 64px 0 20px 0;
-  font-family: 'Roboto', san-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: transparent;
+#nav-logo {
+  content: url(https://hacktoberfest.digitalocean.com/assets/h-light-833607d3b00215da03d184b4123e92b82478d565ab73161880dfe02f04bbeddc.svg);
+  width: 50px;
+  margin-left: 30px;
+  padding: 7px;
 }
 
 .navbar {
-  position: relative;
-  z-index: 30;
-}
-
-#navbar .nav-wrapper {
-  display: flex;
+  width: 100vw;
+  height: 60px; 
+  background-color: rgba(0, 0, 0, .45);;
   align-items: center;
 }
 
-body #navbar .nav-logo {
-  content: url(https://hacktoberfest.digitalocean.com/assets/h-light-833607d3b00215da03d184b4123e92b82478d565ab73161880dfe02f04bbeddc.svg);
-}
-
-.navbar-links li {
-  display: inline-block;
-}
-
-.navLink {
-  margin-left: 1rem;
-  font-size: 0.875rem;
-  z-index: 1;
-  text-transform: uppercase;
+.navbar a {
+  color: #f2f2f2;
+  float: left;
   text-align: center;
+  padding: 20px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-.navbar-link {
-  margin-bottom: 10px;
-  text-align: center;
+.navbar a:hover {
+  background-color: #FDFDFD; 
+  color: black;
+  transform: scale(1.1);
+  transition: transform .1s;
 }
 
-a .navLink {
-  text-decoration: none;
+.navbar .icone {
+  display: none;
 }
 
-a .navLink:hover {
-  text-decoration: underline;
-}
-
-#navbar .navLink {
-  color: var(--site-text);
-}
-body #navbar .navLink:hover,
-body #navbar .active {
-  color: var(--site-card-bg-light);
-}
-
-@media screen and (max-width: 1024px) {
-  #navbar .nav-wrapper {
-    flex-direction: column;
+@media screen and (max-width: 650px) {
+  .nav-wrapper a:not(:first-child) {
+	display: none;
+  }
+	
+  .nav-wrapper a.icone {
+    float: right;
+    display: block;
   }
 }
-#navbar .nav-wrapper .logo {
-  min-height: 100px;
-  min-width: 109px;
-}
-#navbar .nav-wrapper .nav-logo {
-  max-width: 109px;
-}
-#navbar .nav-wrapper ul.navbar-links {
-  display: flex;
-  align-items: center;
-}
-@media screen and (max-width: 1024px) {
-  #navbar .nav-wrapper ul.navbar-links {
-    margin: 20px 0 0;
-    flex-direction: column;
-    align-items: center;
+
+@media screen and (max-width: 650px) {
+  .nav-wrapper.responsive {
+    position: relative;
+	}
+	
+  .nav-wrapper.responsive a.icone {
+    top: 0;
+    right: 0;
+    position: absolute;
+
   }
-}
-#navbar .nav-wrapper ul.navbar-links li {
-  margin-bottom: 10px;
-  text-align: center;
-}
-#navbar .nav-wrapper ul.navbar-links li .navLink {
-  margin-left: 1.875rem;
-  font-size: 0.875rem;
-  z-index: 1;
-  text-transform: uppercase;
-  text-align: center;
-}
-@media screen and (max-width: 1024px) {
-  #navbar .nav-wrapper ul.navbar-links li .navLink {
-    margin-left: 0;
+	
+  .nav-wrapper.responsive a {
+	background-color: #0d2133;
+	color: #FFF;
+	transform: scale(1.0);
+    float: none;
+    text-align: left;
+	display: block;
   }
-}
-nav ul {
-  color: var(--site-text);
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.5;
+	
+  .nav-wrapper.responsive a:hover {
+    text-decoration: underline;
+  }
+	
 }
 
-nav ul li {
-  list-style: none;
-}
+/* FIM NAVBAR */
 
 input {
   background-color: var(--site-card-bg-dark);
