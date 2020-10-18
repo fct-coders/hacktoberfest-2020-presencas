@@ -52,5 +52,11 @@
         "about": "O cinzento que virou branco",
         "languages": ["Élfico", "Vanar", "khuzdul", "Inglês"],
         "year": "600 AM"
+    },
+    {
+       "username": "MinorLess",
+       "about": "Nada muito relevante",
+       "languages": ["C", "Java", "JS"],
+       "year": "2019"
     }
 ]
