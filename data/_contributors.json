@@ -60,9 +60,46 @@
         "year": "2019"
     },
     {
+
         "username": "GabrielaSinastre",
         "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
         "languages": ["C", "Java"],
+        "year": "2020"
+    },
+    {
+        "username": "Yudi",
+        "about": "🙄",
+        "languages": [""],
+        "year": "2020"
+    },
+    {
+        "username": "Prado27",
+        "about": "Olá",
+        "languages": ["C", "C++"],
+        "year": "2019"
+    },
+    {
+        "username": "GiuliaCampos",
+        "about": "Code like a girl",
+        "languages": ["JavaScript", "ReactJs"],
+        "year": "2016"
+    },
+    {
+        "username": "gustavozaia",
+        "about": "Jojofag",
+        "languages": ["Java", "C"],
+        "year": "2019"
+    },
+    {
+        "username": "DanielThemoteo",
+        "about": "We’re bigger than we ever dreamed",
+        "languages": ["Java", "JS", "Python"],
+        "year": "2018"
+    },
+    {
+        "username": "gustavobecelli",
+        "about": "Mãe, tô no Hacktoberfest!",
+        "languages": ["C", "Flutter", "Elixir"],
         "year": "2020"
     }
 ]
