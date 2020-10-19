@@ -88,5 +88,11 @@
         "about": "Olá",
         "languages": ["C", "C++"],
         "year": "2019"
+    },
+    {
+        "username": "rafael-rosseto",
+        "about": "Fish?",
+        "languages": ["C++", "bash"],
+        "year": "2019"
     }
 ]
