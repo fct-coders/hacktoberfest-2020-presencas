@@ -94,5 +94,11 @@
         "about": "Code like a girl",
         "languages": ["JavaScript", "ReactJs"],
         "year": "2016"
+    },
+    {
+        "username": "gustavozaia",
+        "about": "Jojofag",
+        "languages": ["Java", "C"],
+        "year": "2019"
     }
 ]
