@@ -106,5 +106,11 @@
         "about": "We’re bigger than we ever dreamed",
         "languages": ["Java", "JS", "Python"],
         "year": "2018"
+    },
+    {
+        "username": "gustavobecelli",
+        "about": "Mãe, tô no Hacktoberfest!",
+        "languages": ["C", "Flutter", "Elixir"],
+        "year": "2020"
     }
 ]
