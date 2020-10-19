@@ -112,5 +112,11 @@
         "about": "Mãe, tô no Hacktoberfest!",
         "languages": ["C", "Flutter", "Elixir"],
         "year": "2020"
+    },
+    {
+        "username": "viniciusveu",
+        "about": "Dias de luta, dias de luta...",
+        "languages": ["C", "JavaScript", "Python"],
+        "year": "2020"
     }
 ]
