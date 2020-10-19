@@ -88,5 +88,11 @@
         "about": "Olá",
         "languages": ["C", "C++"],
         "year": "2019"
+    },
+    {
+        "username": "GiuliaCampos",
+        "about": "Code like a girl",
+        "languages": ["JavaScript", "ReactJs"],
+        "year": "2016"
     }
 ]
