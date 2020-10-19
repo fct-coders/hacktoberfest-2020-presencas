@@ -100,5 +100,11 @@
         "about": "Jojofag",
         "languages": ["Java", "C"],
         "year": "2019"
+    },
+    {
+        "username": "DanielThemoteo",
+        "about": "We’re bigger than we ever dreamed",
+        "languages": ["Java", "JS", "Python"],
+        "year": "2018"
     }
 ]
