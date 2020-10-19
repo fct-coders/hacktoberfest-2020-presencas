@@ -1,5 +1,11 @@
 [
     {
+        "username": "GabrielaSinastre",
+        "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
+        "languages": ["C, Java"],
+        "year": "2020"
+    },
+    {
         "username": "deadpyxel",
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
@@ -16,6 +22,12 @@
         "about": "Queen of Meereen, Khaleesi of the Great Grass Sea, Mother of Dragons, The Unburnt, Breaker of Chains, Television, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, Lady of Dragonstone",
         "languages": ["High-Valirian"],
         "year": "2005"
+    },
+    {
+        "username": "ViniciusPolachini",
+        "about": "Sei lá...",
+        "languages": ["Javascript"],
+        "year": "2019"
     },
     {
         "username": "pvicari",
@@ -46,6 +58,42 @@
         "about": "I wanna get out of Mr Piteri's wild ride!",
         "languages": ["Java", "C", "R"],
         "year": "2020"
+    },
+    {
+        "username": "gandalf",
+        "about": "O cinzento que virou branco",
+        "languages": ["Élfico", "Vanar", "khuzdul", "Inglês"],
+        "year": "600 AM"
+    },
+    {
+        "username": "glyve99",
+        "about": "i use arch btw",
+        "languages": ["Python, Typescript, Go"],
+        "year": "2018"
+    },
+    {
+        "username": "karenalmeida18",
+        "about": "I like  coffee",
+        "languages": ["JS"],
+        "year": "2019"
+    },
+    {
+        "username": "Yudi",
+        "about": "🙄",
+        "languages": [""],
+        "year": "2020"
+    },
+    {
+        "username": "Prado27",
+        "about": "Olá",
+        "languages": ["C", "C++"],
+        "year": "2019"
+    },
+    {
+        "username": "GiuliaCampos",
+        "about": "Code like a girl",
+        "languages": ["JavaScript", "ReactJs"],
+        "year": "2016"
     },
     {
         "username": "gustavozaia",
