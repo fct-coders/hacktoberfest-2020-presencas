@@ -112,5 +112,11 @@
         "about": "Mãe, tô no Hacktoberfest!",
         "languages": ["C", "Flutter", "Elixir"],
         "year": "2020"
+    },
+    {
+        "username": "darlannakamura",
+        "about": ":D",
+        "languages": ["Python", "Javascript", "Typescript", "Java", "PHP"],
+        "year": "2015"
     }
 ]
