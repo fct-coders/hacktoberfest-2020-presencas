@@ -1,5 +1,11 @@
 [
     {
+        "username": "Luizgt",
+        "about": "Mas tem uma coisa que conecta a gente, mesmo a gente sendo tão diferente...",
+        "languages": ["Javascript"],
+        "year": "2015"
+    },
+    {
         "username": "GabrielaSinastre",
         "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
         "languages": ["C, Java"],
