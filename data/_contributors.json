@@ -112,5 +112,11 @@
         "about": "Mãe, tô no Hacktoberfest!",
         "languages": ["C", "Flutter", "Elixir"],
         "year": "2020"
+    },
+    {
+        "username": "johnnybaptista",
+        "about": "José Plínio - Diretor Presidente EJCOMP 2020",
+        "languages": ["JS", "Kotlin"],
+        "year": "2017"
     }
 ]
