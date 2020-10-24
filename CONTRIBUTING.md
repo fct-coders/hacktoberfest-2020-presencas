@@ -8,15 +8,17 @@ Para adicionar sua presença neste evento os passos a seguir são bem simples:
 2. Clone o seu fork
 
 ```bash
-git clone https://github.com/USER/hacktoberfest-presencas.git.
+git clone https://github.com/USER/hacktoberfest-presencas.git
 ```
 
-~~3. Abra o arquivo `data/_contributors.json` em algum editor de texto.~~ 3. Abra o arquivo `data/_contributors.json` em algum editor de texto. 4. Siga o template para adicionar sua presença:
+3. Abra o arquivo `data/_contributors.json` em algum editor de texto.
+
+4. Siga o template para adicionar sua presença:
 
 ```json
 {
-    "username": "daenerystargaryem", // seu nome de usuário no Github
-    "about": "Queen of Meereen, Khaleesi of the Great Grass Sea, Mother of Dragons, The Unburnt, Breaker of Chains, Television, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, Lady of Dragonstone", // Uma frase curta sobre você
+    "username": "daenerystargaryem",
+    "about": "Queen of Meereen, Khaleesi of the Great Grass Sea, Mother of Dragons, The Unburnt, Breaker of Chains, Television, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, Lady of Dragonstone",
     "languages": ["High-Valirian"],
     "year": "2005"
 }
@@ -27,13 +29,13 @@ git clone https://github.com/USER/hacktoberfest-presencas.git.
 7. Crie uma branch para a sua alteração:
 
 ```bash
-git checkout -b add-contributor.
+git checkout -b add-contributor
 ```
 
 8. Adicione as mudanças realizadas:
 
 ```bash
-git add data/_contributors.json
+git add data/_contributors.json # git add -u OU git add .
 ```
 
 9. E realize o commit:
