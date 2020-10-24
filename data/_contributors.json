@@ -66,6 +66,12 @@
         "year": "2020"
     },
     {
+        "username": "ZagoPedro",
+        "about": "I have no idea what I am doing.",
+        "languages": ["C", "Python", "Javascript"],
+        "year": "2020"
+    },
+    {
         "username": "gandalf",
         "about": "O cinzento que virou branco",
         "languages": ["Élfico", "Vanar", "khuzdul", "Inglês"],
