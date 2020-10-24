@@ -130,6 +130,11 @@
         "about": "Mãe, tô no Hacktoberfest!",
         "languages": ["C", "Flutter", "Elixir"],
         "year": "2020"
+    },
+    {
+        "username": "Daviiro",
+        "about": "Hello World!",
+        "languages": ["C", "Python", "Javascript"],
+        "year": "2000"
     }
-	
 ]
