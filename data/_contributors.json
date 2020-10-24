@@ -78,6 +78,12 @@
         "year": "600 AM"
     },
     {
+        "username": "LeandroH9",
+        "about": "Roi",
+        "languages": ["Python", "Java", "C", "JS"],
+        "year": "2019"
+    },
+    {
         "username": "glyve99",
         "about": "i use arch btw",
         "languages": ["Python, Typescript, Go"],
