@@ -6,6 +6,12 @@
         "year": "2012"
     },
     {
+        "username": "Willendes",
+        "about": "O jogo",
+        "languages": ["C", "C#", "Java", "GML"],
+        "year": "2018"
+    },
+    {
         "username": "ga-sr",
         "about": "Alô... oi?",
         "languages": ["Javascript", "Python"],
@@ -46,6 +52,18 @@
         "about": "I wanna get out of Mr Piteri's wild ride!",
         "languages": ["Java", "C", "R"],
         "year": "2020"
+    },
+    {
+        "username": "ZagoPedro",
+        "about": "I have no idea what I am doing.",
+        "languages": ["C", "Python", "Javascript"],
+        "year": "2020"
+    },
+    {
+        "username": "LeandroH9",
+        "about": "Roi",
+        "languages": ["Python", "Java", "C", "JS"],
+        "year": "2019"
     },
     {
         "username": "glyve99",
@@ -101,5 +119,11 @@
         "about": "Mãe, tô no Hacktoberfest!",
         "languages": ["C", "Flutter", "Elixir"],
         "year": "2020"
+    },
+    {
+        "username": "Daviiro",
+        "about": "Hello World!",
+        "languages": ["C", "Python", "Javascript"],
+        "year": "2000"
     }
 ]
