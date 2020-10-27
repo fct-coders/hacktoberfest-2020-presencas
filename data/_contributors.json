@@ -1,140 +1,140 @@
 [
   {
-    "username": "deadpyxel",
     "about": "Hacktoberfest boys",
     "languages": ["Python", "Go", "Rust"],
+    "username": "deadpyxel",
     "year": "2012"
   },
   {
-    "username": "Willendes",
     "about": "O jogo",
     "languages": ["C", "C#", "Java", "GML"],
+    "username": "Willendes",
     "year": "2018"
   },
   {
-    "username": "ga-sr",
-    "about": "Alô... oi?",
+    "about": "Al\u00f4... oi?",
     "languages": ["Javascript", "Python"],
+    "username": "ga-sr",
     "year": "2018"
   },
   {
-    "username": "ViniciusPolachini",
-    "about": "Sei lá...",
+    "about": "Sei l\u00e1...",
     "languages": ["Javascript"],
+    "username": "ViniciusPolachini",
     "year": "2019"
   },
   {
-    "username": "pvicari",
     "about": "A little pixel on screen",
     "languages": ["Python", "JS", "C"],
+    "username": "pvicari",
     "year": "2013"
   },
   {
-    "username": "vinijabes",
     "about": "Pruuu",
     "languages": ["C++", "Go", "Rust", "Javascript"],
+    "username": "vinijabes",
     "year": "2017"
   },
   {
-    "username": "gabriel-github",
     "about": "Sobrevivente",
     "languages": ["js", "React"],
+    "username": "gabriel-github",
     "year": "2019"
   },
   {
-    "username": "GuiCT49",
     "about": "Just another day?",
     "languages": ["C", "C++", "Python"],
+    "username": "GuiCT49",
     "year": "2020"
   },
   {
-    "username": "CaduSantana",
     "about": "I wanna get out of Mr Piteri's wild ride!",
     "languages": ["Java", "C", "R"],
+    "username": "CaduSantana",
     "year": "2020"
   },
   {
-    "username": "ZagoPedro",
     "about": "I have no idea what I am doing.",
     "languages": ["C", "Python", "Javascript"],
+    "username": "ZagoPedro",
     "year": "2020"
   },
   {
-    "username": "LeandroH9",
     "about": "Roi",
     "languages": ["Python", "Java", "C", "JS"],
+    "username": "LeandroH9",
     "year": "2019"
   },
   {
-    "username": "glyve99",
     "about": "i use arch btw",
     "languages": ["Python", "Typescript", "Go"],
+    "username": "glyve99",
     "year": "2018"
   },
   {
-    "username": "FOX6683",
     "about": "tres pratos de trigo para tres tigres tristes",
     "languages": ["C"],
+    "username": "FOX6683",
     "year": "2020"
   },
   {
-    "username": "karenalmeida18",
     "about": "I like  coffee",
     "languages": ["JS"],
+    "username": "karenalmeida18",
     "year": "2019"
   },
   {
-    "username": "GabrielaSinastre",
-    "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
+    "about": "SOFRO, \u00c9 aquele ditado: errar \u00e9 humano, mas permanecer no erro \u00e9 dif\u00edcil! -BRASIL, In\u00eas.",
     "languages": ["C", "Java"],
+    "username": "GabrielaSinastre",
     "year": "2020"
   },
   {
-    "username": "Yudi",
-    "about": "🙄",
+    "about": "\ud83d\ude44",
     "languages": [""],
+    "username": "Yudi",
     "year": "2020"
   },
   {
-    "username": "Prado27",
-    "about": "Olá",
+    "about": "Ol\u00e1",
     "languages": ["C", "C++"],
+    "username": "Prado27",
     "year": "2019"
   },
   {
-    "username": "GiuliaCampos",
     "about": "Code like a girl",
     "languages": ["JavaScript", "ReactJs"],
+    "username": "GiuliaCampos",
     "year": "2016"
   },
   {
-    "username": "gustavozaia",
     "about": "Jojofag",
     "languages": ["Java", "C"],
+    "username": "gustavozaia",
     "year": "2019"
   },
   {
-    "username": "DanielThemoteo",
-    "about": "We’re bigger than we ever dreamed",
+    "about": "We\u2019re bigger than we ever dreamed",
     "languages": ["Java", "JS", "Python"],
+    "username": "DanielThemoteo",
     "year": "2018"
   },
   {
-    "username": "gustavobecelli",
-    "about": "Mãe, tô no Hacktoberfest!",
+    "about": "M\u00e3e, t\u00f4 no Hacktoberfest!",
     "languages": ["C", "Flutter", "Elixir"],
+    "username": "gustavobecelli",
     "year": "2020"
   },
   {
-    "username": "Daviiro",
     "about": "Hello World!",
     "languages": ["C", "Python", "Javascript"],
+    "username": "Daviiro",
     "year": "2000"
   },
   {
-    "username": "MinorLess",
     "about": "Nada muito relevante",
     "languages": ["C", "Java", "JS"],
+    "username": "MinorLess",
     "year": "2019"
   }
 ]
