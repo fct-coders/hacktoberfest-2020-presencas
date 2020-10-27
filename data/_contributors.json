@@ -36,6 +36,12 @@
         "year": "2017"
     },
     {
+        "username": "amendx",
+        "about": "Fight harder so they can bow.",
+        "languages": ["Javascript", "CSS"],
+        "year": "2020"
+    },
+    {
         "username": "gabriel-github",
         "about": "Sobrevivente",
         "languages": ["js", "React"],
@@ -124,11 +130,5 @@
         "about": "Hello World!",
         "languages": ["C", "Python", "Javascript"],
         "year": "2000"
-    },
-    {
-       "username": "MinorLess",
-       "about": "Nada muito relevante",
-       "languages": ["C", "Java", "JS"],
-       "year": "2019"
     }
 ]
