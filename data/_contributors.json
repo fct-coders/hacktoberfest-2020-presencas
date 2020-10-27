@@ -1,11 +1,5 @@
 [
     {
-        "username": "GabrielaSinastre",
-        "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
-        "languages": ["C, Java"],
-        "year": "2020"
-    },
-    {
         "username": "deadpyxel",
         "about": "Hacktoberfest boys",
         "languages": ["Python", "Go", "Rust"],
@@ -22,12 +16,6 @@
         "about": "Alô... oi?",
         "languages": ["Javascript", "Python"],
         "year": "2018"
-    },
-    {
-        "username": "daenerystargaryem",
-        "about": "Queen of Meereen, Khaleesi of the Great Grass Sea, Mother of Dragons, The Unburnt, Breaker of Chains, Television, Queen of the Andals and the First Men, Protector of the Seven Kingdoms, Lady of Dragonstone",
-        "languages": ["High-Valirian"],
-        "year": "2005"
     },
     {
         "username": "ViniciusPolachini",
@@ -72,12 +60,6 @@
         "year": "2020"
     },
     {
-        "username": "gandalf",
-        "about": "O cinzento que virou branco",
-        "languages": ["Élfico", "Vanar", "khuzdul", "Inglês"],
-        "year": "600 AM"
-    },
-    {
         "username": "LeandroH9",
         "about": "Roi",
         "languages": ["Python", "Java", "C", "JS"],
@@ -86,7 +68,7 @@
     {
         "username": "glyve99",
         "about": "i use arch btw",
-        "languages": ["Python, Typescript, Go"],
+        "languages": ["Python", "Typescript", "Go"],
         "year": "2018"
     },
     {
@@ -94,6 +76,13 @@
         "about": "I like  coffee",
         "languages": ["JS"],
         "year": "2019"
+    },
+    {
+
+        "username": "GabrielaSinastre",
+        "about": "SOFRO, É aquele ditado: errar é humano, mas permanecer no erro é difícil! -BRASIL, Inês.",
+        "languages": ["C", "Java"],
+        "year": "2020"
     },
     {
         "username": "Yudi",
