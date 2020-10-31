@@ -136,5 +136,11 @@
     "languages": ["C", "Java", "JS"],
     "username": "MinorLess",
     "year": "2019"
+  },
+  {
+    "about": "Carequinha",
+    "languages": ["C#", "C", "Javascript", "ReactJS"],
+    "username": "Tilteee",
+    "year": "2017"
   }
 ]
