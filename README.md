@@ -1,7 +1,5 @@
 # Presenças do Hacktoberfest 2020
 
-![](imgForReadme.png)
-
 Esse repo contém o código fonte para o livro de presenças do Hacktoberfest 2020, disponível em [http://fct-hacktober2020.surge.sh/](http://fct-hacktober2020.surge.sh/).
 
 ## Instalação para desenvolvimento
@@ -27,3 +25,7 @@ Pull requests são bem vindas, por favor crie um issue para discutir a mudança 
 ## Licença
 
 Esse projeto segue a licença [MIT](https://choosealicense.com/licenses/mit/).
+
+## Screenshots
+
+![Homepage](.screenshots/home.png)
