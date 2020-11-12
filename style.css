@@ -188,6 +188,7 @@ input:focus {
   list-style-type: none;
   padding: 0;
   max-width: 400px;
+  text-transform: capitalize;
 }
 
 .user-info ul li {
@@ -219,22 +220,4 @@ input:focus {
 
 main {
   color: var(--site-text);
-}
-
-@keyframes up {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.up {
-  animation-name: up;
-  animation-duration: 1s;
-  animation-fill-mode: backwards;
 }
